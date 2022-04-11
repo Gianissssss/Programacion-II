@@ -11,6 +11,8 @@ import { EquipoComponent } from './pages/equipo/equipo.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { CasosDeExitoComponent } from './pages/casos-de-exito/casos-de-exito.component';
 import { ServiciosComponent } from './pages/servicios/servicios.component';
+import { CombosComponent } from './pages/combos/combos.component';
+import { FreeHourComponent } from './pages/free-hour/free-hour.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ServiciosComponent } from './pages/servicios/servicios.component';
     EquipoComponent,
     ContactoComponent,
     CasosDeExitoComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    CombosComponent,
+    FreeHourComponent
   ],
   imports: [
     BrowserModule,

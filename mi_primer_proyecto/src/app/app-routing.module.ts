@@ -5,6 +5,8 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
 import { EquipoComponent } from './pages/equipo/equipo.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { ServiciosComponent } from './pages/servicios/servicios.component';
+import {  CombosComponent } from './pages/combos/combos.component';
+import { FreeHourComponent } from './pages/free-hour/free-hour.component';
 
 const routes: Routes = [
   {path:'inicio',component:InicioComponent},
@@ -14,6 +16,8 @@ const routes: Routes = [
   {path:'contacto',component:ContactoComponent},
   {path:'casos_de_exito',component:CasosDeExitoComponent},
   {path:'servicios',component:ServiciosComponent},
+  {path:'combos',component:CombosComponent},
+  {path:'free-hour',component:FreeHourComponent},
   {path:'**',component:InicioComponent},
 ];
 
