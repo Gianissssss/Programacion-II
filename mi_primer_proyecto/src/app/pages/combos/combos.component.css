@@ -14,7 +14,7 @@
   }
   .mt{float: left;margin-top: -20px;padding-top: 20px;}
   .bg-blue-ui {
-	background-color: #708198 !important;
+	background-color: #DAB88B !important;
   }
   figure img{width:300px;}
   
@@ -32,14 +32,14 @@
   /* The colour of the indicators */
   
   .blog .carousel-indicators li {
-	background: #708198;
+	background: #DAB88B;
 	border-radius: 50%;
 	width: 8px;
 	height: 8px;
   }
   
   .blog .carousel-indicators .active {
-	background: #0fc9af;
+	background: white;
   }
   
   
@@ -51,7 +51,7 @@
   }
   
   .item-box-blog {
-	border: 1px solid #dadada;
+	border: 1px solid #B7CADB;
 	text-align: center;
 	z-index: 4;
 	padding: 20px;
@@ -72,7 +72,7 @@
 	padding: 4px 20px;
 	top: -20px;
 	right: 8px;
-	background-color: #41cb52;
+	background-color: white;
   }
   
   .item-box-blog-date span {
@@ -132,6 +132,6 @@
   }
   
   .btn.bg-blue-ui.white.read:hover {
-	box-shadow: 0px 5px 15px inset #4d5f77;
+	box-shadow: 0px 5px 15px inset #DAB88B;
   }
   
