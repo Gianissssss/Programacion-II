@@ -11,7 +11,7 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
 import { CasosDeExitoComponent } from './pages/casos-de-exito/casos-de-exito.component';
 import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { CombosComponent } from './pages/combos/combos.component';
-import { FreeHourComponent } from './pages/free-hour/free-hour.component';
+import { ContratoComponent } from './pages/contrato/contrato.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,7 @@ import { FreeHourComponent } from './pages/free-hour/free-hour.component';
     CasosDeExitoComponent,
     ServiciosComponent,
     CombosComponent,
-    FreeHourComponent
+    ContratoComponent,
   ],
   imports: [
     BrowserModule,

@@ -103,3 +103,20 @@
     background-color: #fff;
     border-color: #fff;
 }
+/* seccion */
+.seccion{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.derecha{
+    align-self: flex-end;
+}
+.flexbox{
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 200px;
+}
+

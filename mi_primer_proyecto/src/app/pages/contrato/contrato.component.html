@@ -1,0 +1,78 @@
+<div class="col-md-7 col-lg-8 mb-3" style="text-align: center;">
+    <h4 class="mb-3">Billing address</h4>
+    <form class="needs-validation" novalidate="">
+      <div class="row g-3">
+        <div class="col-sm-6">
+          <label for="firstName" class="form-label">Nombres</label>
+          <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+          <div class="invalid-feedback">
+            Se requiere su nombre.
+          </div>
+        </div>
+
+
+        <div class="col-12">
+          <label for="username" class="form-label">Apellido</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" id="username" placeholder="Username" required="">
+          <div class="invalid-feedback">
+              Se requiere su apellido.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+          <input type="email" class="form-control" id="email" placeholder="you@example.com">
+          <div class="invalid-feedback">
+            Por favor, ingrese su correo electronico.
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label for="address" class="form-label">Direccion</label>
+          <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+          <div class="invalid-feedback">
+            Por favor, ingrese su direccion.
+          </div>
+        </div>
+
+
+        <div class="col-md-5">
+          <label for="country" class="form-label">Pais</label>
+          <select class="form-select" id="country" required="">
+            <option value="">Opciones...</option>
+            <option>Estados Unidos</option>
+          </select>
+          <div class="invalid-feedback">
+            Por favor, ingrese un pais valido.
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <label for="state" class="form-label">Estado</label>
+          <select class="form-select" id="state" required="">
+            <option value="">Opcion...</option>
+            <option>California</option>
+          </select>
+          <div class="invalid-feedback">
+            Por favor, ingrese un estado valido.
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <label for="zip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="zip" placeholder="" required="">
+          <div class="invalid-feedback">
+            Zip code required.
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4">
+
+      <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar CV</button>
+    </form>
+  </div>
+<app-footer></app-footer>
