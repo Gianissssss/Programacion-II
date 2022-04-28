@@ -28,7 +28,7 @@
       -o-transition: all 0.3s ease-out;
       transition: all 0.3s ease-out;
       border-radius: 5px;
-      cursor: help;
+      cursor: pointer;
   }
   
   .contenedor-cards .contenedor-card-item:hover {
