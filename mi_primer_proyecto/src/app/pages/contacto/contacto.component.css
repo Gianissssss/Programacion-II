@@ -1,61 +1,74 @@
-.active{
-	border:solid 1px #ddd;
-	border-bottom: none;
-	z-index: 2;
-	background: white;
+@import url('https://fonts.googleapis.com/css?family=Poppins')
+html,body {
+  margin: 0;
+  padding: 0
+  width: 100%
+  height: 100vh
+  background: #141E30
+  background: -webkit-linear-gradient(to top, #243B55, #141E30)
+  background: linear-gradient(to top, #243B55, #141E30)
+  display: flex
+  justify-content: center
+  align-items: center
+  font-family: 'Poppins', sans-serif
+  overflow: hidden
 }
-
-.tab-bar p{
-	border-top: solid 1px #ddd;
-	margin: 0px;
-	margin-top: -1px;
-	font-size: 170%;
-  padding: 40px 20px;
-	display: none;
-	position: absolute;
-  width: 100%;
-}
-
-.tab-bar{
-	height: 100px;
-  color: #7f8c8d;
-}
-
-.tab-bar h2{
-	padding: 8px 15px;
-	font-size: 100%;
-	font-weight: 100;
-	cursor: pointer;
-	display: inline-block;
-	margin: 0px;
-	position: relative;
-}
-
-.tab-bar h2:hover{
-	background: #eee;
-	cursor: pointer;
-}
-
-.active + p {
-  display: block;
-}
-/*End CSS example*/
-
-/*Other CSS*/
-body{
-  font-family: helvetica;
-  font-size: 1.2em;
-}
-
-.center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position:relative;
-  width: 40%;
-}
-
-.container{ 
-   margin-top: 50px; 
-}
-
+.card
+  border-radius: 16px
+  width: 360px
+  height: 360px
+  background: url(https://picsum.photos/360/360?image=0)
+  position: relative
+  overflow: hidden
+  box-shadow: 0 5px 50px rgba(#000,.85)
+  &:before
+    content: ''
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    background-color: rgba(#000,.92)
+  .img
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    display: flex
+    span
+      width: 25%
+      height: 100%
+      background: url(https://picsum.photos/360/360?image=0)
+      transition: .5s
+      &:nth-child(1)
+        background-position: 0
+        transition-delay: 0
+      &:nth-child(2)
+        background-position: 33.33333%
+        transition-delay: .1s
+      &:nth-child(3)
+        background-position: 66.66666%
+        transition-delay: .2s
+      &:nth-child(4)
+        background-position: 100%
+        transition-delay: .3s
+        
+.card:hover 
+  .img>span
+    transform: translateY(-100%)
+  .content
+    transform: translateY(0%)
+    transition: 1s
+    transition-delay: .1s
+  
+.content
+  box-sizing: border-box
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  color: white
+  padding: 20px 20px
+  width: 100%
+  height: 100%
+  transform: translateY(100%)
