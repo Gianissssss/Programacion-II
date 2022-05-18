@@ -24,13 +24,14 @@ h4{
 }
 
 h5{
-  color: #1F6F9A;
+  color: #FF9F45;
   font-weight: 400;
 }
 
 p{
   font-weight: 300;
   font-size: 14px;
+  color: #dddd;
 }
 
 .com-button{
@@ -49,6 +50,7 @@ p{
 .card{
   border-radius:3px;
   border: 1px solid #D1D1D1;
+  background-color: #F9D371;
 }
 
 .card-deck .card {
