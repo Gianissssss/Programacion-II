@@ -21,6 +21,9 @@
   #blogCarousel {
 	padding-bottom: 100px;
   }
+  #blogCarousels {
+    padding-bottom: 100px;
+    }
   
   .blog .carousel-indicators {
 	left: 0;
